@@ -63,100 +63,53 @@ function submitForm() {
   let resetButton = document.getElementById('codeFormReset');
   submitButton.disabled = true;
   resetButton.disabled = true;
-  let content =
-    '' +
-    `releases:
-  -
-    contact: 
-      URL: 
-        en: ${$('#enUrlContact').val()}
-        fr: ${$('#frUrlContact').val()}
-    date: 
-      created: ${$('#dateCreated').val()}
-      metadataLastUpdated: ${$('#dateLastUpdated').val()}
-    description: 
-      en: ${$('#enDescription').val()}
-      fr: ${$('#frDescription').val()}
-    name: 
-      en: ${$('#enProjectName').val()}
-      fr: ${$('#frProjectName').val()}
-    licenses: 
-      - 
-        URL: 
-          en: ${$('#enUrlLicense').val()}
-          fr: ${$('#frUrlLicense').val()}
-          spdxID: ${$('#spdxID').val()}
-    repositoryURL: 
-      en: ${$('#enRepoUrl').val()}
-      fr: ${$('#frRepoUrl').val()}
-    status: ${$('#status :selected').text()}
-    tags: 
-      en: 
-${[...document.querySelectorAll('#tagsEN input')]
-  .map(child => child.value)
-  .map(tag => '        - "' + tag + '"')
-  .join('\n')}
-      fr: 
-${[...document.querySelectorAll('#tagsFR input')]
-  .map(child => child.value)
-  .map(tag => '        - "' + tag + '"')
-  .join('\n')}
-    vcs: ${$('#vcs').val()}
-`;
+  
+  let contentPrime = 
+  `- code: ${$('#adminCode').val()}
+  provinceCode: "${$('#provinceCode').val()}"
+  name:
+    en: ${$('#enAdminName').val()}
+    fr: ${$('#frAdminName').val()}
+  `;
+
   let fileWriter = new YamlWriter(USERNAME, REPO_NAME);
-  let file = `_data/code/${getSelectedOrgType()}/${$('#adminCode').val()}.yml`;
-  fileWriter
-    .merge(file, content, 'releases', 'name.en')
-    .then(result => {
-      const config = {
-        body: JSON.stringify({
-          user: USERNAME,
-          repo: REPO_NAME,
-          title: 'Updated code for ' + $('#adminCode :selected').text(),
-          description:
-            'Authored by: ' +
-            $('#submitterEmail').val() +
-            '\n' +
-            'Project: ***' +
-            $('#enProjectName').val() +
-            '***\n' +
-            $('#enDescription').val() +
-            '\n',
-          commit: 'Committed by ' + $('#submitterEmail').val(),
-          author: {
-            name: $('#submitterUsername').val(),
-            email: $('#submitterEmail').val()
-          },
-          files: [
-            {
-              path: file,
-              content: YAML.stringify(result, { keepBlobsInJSON: false })
-            }
-          ]
-        }),
-        method: 'POST'
-      };
-      return fetch(PRBOT_URL, config);
-    })
-    .catch(err => {
+  let filePrime = `_data/administrations/municipal.yml`;
+
+  fileWriter.merge(filePrime, contentPrime, "code", "name.en").then(result =>{
+    const config = {
+      body: JSON.stringify({
+        user: USERNAME,
+        repo: REPO_NAME,
+        title: 'Updated administrations ',
+        description:
+          'Authored by: ' +
+          $('#submitterEmail').val() +
+          '\n',
+        commit: 'Committed by ' + $('#submitterEmail').val(),
+        author: {
+          name: $('#submitterUsername').val(),
+          email: $('#submitterEmail').val()
+        },
+        files: [
+          {
+            path: filePrime,
+            contentPrime: YAML.stringify(result, { keepBlobsInJSON: false })
+          }
+        ]
+      }),
+      method: 'POST'
+    };
+    return fetch(PRBOT_URL, config);
+  }).catch(err => {
       if (err.status == 404) {
-        // We need to create the file for this organization, as it doesn't yet exist.
-        let header = `schemaVersion: "1.0"\nadminCode: ${$(
-          '#adminCode'
-        ).val()}\n`;
         const config = {
           body: JSON.stringify({
             user: USERNAME,
             repo: REPO_NAME,
-            title: 'Created code file for ' + $('#adminCode :selected').text(),
+            title: 'Created administration',
             description:
               'Authored by: ' +
               $('#submitterEmail').val() +
-              '\n' +
-              'Project: ***' +
-              $('#enProjectName').val() +
-              '***\n' +
-              $('#enDescription').val() +
               '\n',
             commit: 'Committed by ' + $('#submitterEmail').val(),
             author: {
@@ -165,8 +118,8 @@ ${[...document.querySelectorAll('#tagsFR input')]
             },
             files: [
               {
-                path: file,
-                content: header + content
+                path: filePrime,
+                contentPrime: content
               }
             ]
           }),
