@@ -59,10 +59,10 @@ function toggleAlert(option) {
 }
 
 function submitForm() {
-  let submitButton = document.getElementById('prbotSubmit');
+  /*let submitButton = document.getElementById('prbotSubmit');
   let resetButton = document.getElementById('codeFormReset');
   submitButton.disabled = true;
-  resetButton.disabled = true;
+  resetButton.disabled = true;*/
   let content =
     '' +
     `releases:
@@ -181,15 +181,15 @@ ${[...document.querySelectorAll('#tagsFR input')]
       if (response.status != 200) {
         toggleAlert(ALERT_OFF);
         toggleAlert(ALERT_FAIL);
-        submitButton.disabled = false;
-        resetButton.disabled = false;
+        /*submitButton.disabled = false;
+        resetButton.disabled = false;*/
       } else {
         toggleAlert(ALERT_OFF);
         toggleAlert(ALERT_SUCCESS);
         // Redirect to home page
-        setTimeout(function() {
+        /*setTimeout(function() {
           window.location.href = './index.html';
-        }, 2000);
+        }, 2000);*/
       }
     });
 }
