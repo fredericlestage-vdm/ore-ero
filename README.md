@@ -12,7 +12,10 @@ You also can make these changes directly in your current repository if you don't
  - Default github username is `canada-ca`
  - Default PRB0T url is `https://canada-pr-bot.herokuapp.com/`
 
-### The you can start the project
+### Then you can start the project
  - Start with a casual `npm install`
  - Followed by a `bundle install`
  - Then you can `bundle exec jekyll serve` to launch the project on a local server (hosted on http://localhost:4000/ore-ero/)
+
+### FAQ
+Getting a Connection closed error while trying to fetch? Make sure your localhost url uses http and not https.
