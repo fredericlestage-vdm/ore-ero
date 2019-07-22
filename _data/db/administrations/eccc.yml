@@ -1,6 +1,7 @@
 ---
 code: eccc
 name:
-  en: Environment and Climate Change Canada
-  fr: Environnement et Changement climatique Canada
-parent: federal
+  en: Frederic Lestage
+  fr: Frédéric Lestage
+parent: municipal
+provinceCode: nb
