@@ -1,13 +1,7 @@
 # Site settings
-<<<<<<< HEAD
 baseurl: "/ore-ero" # the subpath of your site, e.g. /blog
 url: "https://canada-ca.github.io/ore-ero" # the base hostname & protocol for your site
 github_username: fredericlestage-vdm # CHANGE HERE FOR YOUR GITHUB USERNAME
-=======
-baseurl: "/ore-ero"
-url: "https://canada-ca.github.io/ore-ero"
-github_username: canada-ca
->>>>>>> 8c0073325a233cd47bd392194ccb34e7ad762f7f
 github_repository: ore-ero
 prbot_url: "http://localhost:3000" # CHANGE HERE IF YOU USE A CUSTOM PORT NUMBER
 
