@@ -1,0 +1,49 @@
+---
+
+id: code
+
+formGroups:
+  - preset: schemaVersion
+  - preset: adminCode
+  - preset: selectCode
+  - preset: empty
+    start: true
+    title: releases
+  - preset: description
+  - preset: contact
+  - preset: dates
+    created: true
+    modified: true
+    updated: true
+  - widget: string-i18n
+    title: downloadUrl
+    type: url
+    required: false
+  - preset: homepageURL
+  - preset: languages
+  - widget: string-i18n
+    title: organization
+    rule: alphanum-space
+    required: false
+  - widget: group
+    title: partners
+    required: false
+    more: true
+    fields:
+      - widget: string-i18n
+        title: URL
+        type: url
+      - widget: string
+        title: email
+        type: email
+      - widget: string-i18n
+        title: name
+        rule: alphanum-space
+  - preset: licenses
+  - widget: string-i18n
+    title: repositoryUrl
+    type: url
+  - preset: relatedCode
+  - preset: tags
+  - preset: status
+  - preset: empty
