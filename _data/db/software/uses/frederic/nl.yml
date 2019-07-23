@@ -1,0 +1,14 @@
+---
+adminCode: nl
+uses:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    date:
+      started: '2019-07-11'
+      metadataLastUpdated: '2019-07-23'
+    description:
+      en: descEN
+      fr: descFR
+    name:
+      en: useEN
+      fr: useFR
