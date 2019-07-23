@@ -1,0 +1,23 @@
+---
+adminCode: FRED
+uses:
+  - contact:
+      email: frederic.lestage@montreal.ca
+      URL:
+        en: 'http://www.google.com/contact'
+        fr: 'http://www.google.ca/contact'
+      name: contact
+    date:
+      started: '2013-12-31'
+      metadataLastUpdated: '2019-07-23'
+    description:
+      en: descEN
+      fr: descFR
+    name:
+      en: useEN
+      fr: useFR
+    status: Beta
+    users:
+      - users
+      - public
+      - test
