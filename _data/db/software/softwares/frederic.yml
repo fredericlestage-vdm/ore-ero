@@ -1,0 +1,23 @@
+---
+schemaVersion: '1.0'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+homepageURL:
+  en: ''
+  fr: ''
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'https://github.com/apache/accumulo/blob/master/LICENSE'
+    spdxID: MIT
+name:
+  en: Frederic
+  fr: Frédéric
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - FRED
