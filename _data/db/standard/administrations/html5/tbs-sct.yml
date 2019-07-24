@@ -9,4 +9,10 @@ references:
     name:
       en: Standard on Web Interoperability
       fr: Norme sur l'interopérabilité du Web
+  - URL:
+      en: 'http://www.google.com/ref2'
+      fr: 'http://www.google.com/ref2'
+    name:
+      en: ref name two
+      fr: ref name deux
 status: mandatory-gc
