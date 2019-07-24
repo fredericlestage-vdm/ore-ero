@@ -1,0 +1,23 @@
+---
+schemaVersion: '1.0'
+date:
+  created: '2019-03-08'
+  metadataLastUpdated: '2019-07-24'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+name:
+  en: Frederic
+  fr: Frédéric
+specURL:
+  en: 'http://www.google.com'
+  fr: 'http://www.google.ca'
+standardCode: FRED
+standardOrg: Frédéric Lestage inc
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - aafc-aac
