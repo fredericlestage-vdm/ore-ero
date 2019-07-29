@@ -1,0 +1,6 @@
+---
+url:
+  required: false
+  type: url
+name:
+  required: false

@@ -36,17 +36,17 @@ nav:
     en: Open Source Code
     fr: Code source ouvert
     link:
-      en: ./open-source-code.html
-      fr: ./code-source-ouvert.html
-  oss:
+      en: ./open-source-codes.html
+      fr: ./codes-source-ouverts.html
+  software:
     en: Open Source Software
-    fr: Logiciels libres
+    fr: Logiciel libre
     link:
-      en: ./open-source-software.html
+      en: ./open-source-softwares.html
       fr: ./logiciels-libres.html
-  standards:
-    en: Open Standards
-    fr: Normes ouvertes
+  standard:
+    en: Open Standard
+    fr: Norme ouverte
     link:
       en: ./open-standards.html
       fr: ./normes-ouvertes.html
@@ -62,6 +62,12 @@ nav:
     link:
       en: https://www.canada.ca/en.html
       fr: https://www.canada.ca/fr.html
+  form:
+    en: Form
+    fr: Formulaire
+  groups:
+    en: Groups
+    fr: Groupes
 
 footer:
   AboutGovernment:

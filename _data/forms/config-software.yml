@@ -1,0 +1,26 @@
+---
+
+id: software
+
+formGroups:
+  - preset: selectSoftware
+  - preset: description
+  - preset: homepageURL
+  - preset: licence
+    param: {more: true}
+  - preset: tags
+  - preset: adminCode
+  - preset: contact
+    param: {phone: false}
+  - preset: dates
+    param: {started: true}
+  - widget: string-i18n
+    title: description
+    param: {prepend: use}
+  - widget: string-i18n
+    title: name
+    param: {prepend: use}
+  - preset: status
+  - widget: string
+    title: users
+    param: {required: false, more: true}
