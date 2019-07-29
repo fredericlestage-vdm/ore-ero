@@ -1,0 +1,15 @@
+{%- assign title = "name" -%}
+{%- assign group = "select" -%}
+<div class="form-group">
+  {% include form/components/label-group.html id=include.id title=title group=group param=site.data.forms.param.selectSoftware %}
+  <select class="form-control" id="{{ title }}{{ group }}" name="{{ title }}{{ group }}">
+    <option value="">&nbsp;</option>
+    {%- for softwares in site.data.db.software.softwares -%}
+    {%- assign software = softwares[1] %}
+    <option value="{{ software.name[page.lang] | slugify }}">{{ software.name[page.lang] }}</option>
+    {%- endfor %}
+  </select>
+</div>
+
+{% include form/components/title.html id=include.id title=title -%}
+{% include form/components/group-i18n.html id=include.id title=title -%}
