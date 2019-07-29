@@ -239,7 +239,7 @@ function getConfigStandard(standardName, standardObject, fileStandard, change) {
       files: [
         {
           path: fileStandard,
-          content: '\---\n' + jsyaml.dump(standardObject)
+          content: '---\n' + jsyaml.dump(standardObject)
         }
       ]
     },
@@ -268,7 +268,7 @@ function getConfigStdAdmin(config, adminName, stdAdmin, fileStdAdmin, change) {
   config.body.description += '\n';
   config.body.files[config.body.files.length] = {
     path: fileStdAdmin,
-    content: '\---\n' + jsyaml.dump(stdAdmin)
+    content: '---\n' + jsyaml.dump(stdAdmin)
   };
 }
 
@@ -276,7 +276,7 @@ function configNewAdmin(config, fileAdmin, adminObject) {
   config.body.title += ' (new administration)';
   config.body.files[config.body.files.length] = {
     path: fileAdmin,
-    content: '\---\n' + jsyaml.dump(adminObject)
+    content: '---\n' + jsyaml.dump(adminObject)
   };
 }
 
@@ -349,8 +349,6 @@ function addValueToFieldsAdmin(obj) {
     if (obj['contact']['URL']['fr'])
       $('#frcontactURL').val(obj['contact']['URL']['fr']);
   }
-
-  $('#datecreated').val(obj['date']['created']);
 
   $('#enreferenceURL').val(obj['references'][0]['URL']['en']);
   $('#frreferenceURL').val(obj['references'][0]['URL']['fr']);
