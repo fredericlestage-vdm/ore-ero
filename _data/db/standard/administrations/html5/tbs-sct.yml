@@ -12,4 +12,10 @@ references:
     name:
       en: Standard on Web Interoperability
       fr: Norme sur l'interopérabilité du Web
+  - URL:
+      en: 'https://www.google.com'
+      fr: 'https://www.google.ca'
+    name:
+      en: Reference
+      fr: Référence
 status: mandatory-gc
