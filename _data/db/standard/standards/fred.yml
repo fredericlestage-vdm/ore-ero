@@ -1,0 +1,27 @@
+---
+schemaVersion: '1.0'
+date:
+  created: '2019-12-31'
+  metadataLastUpdated: '2019-07-29'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+name:
+  en: Frederic
+  fr: Frédéric
+specURL:
+  en: 'http://www.google.com'
+  fr: 'http://www.google.ca'
+standardAcronym: FRED
+standardOrg:
+  en: Frederic Lestage inc.
+  fr: Frédéric Lestage inc.
+tags:
+  en:
+    - TagEN
+    - SpaceEN
+  fr:
+    - TagFR
+    - SpaceFR
+administrations:
+  - fred
