@@ -304,7 +304,6 @@ function addValueToFieldsStandard(obj) {
   $('#frname').val(obj['name']['fr']);
   $('#endescription').val(obj['description']['en']);
   $('#frdescription').val(obj['description']['fr']);
-  $('#datecreated').val(obj['date']['created']);
   $('#enspecURL').val(obj['specURL']['en']);
   $('#frspecURL').val(obj['specURL']['fr']);
   $('#enstandardOrg').val(obj['standardOrg']['en']);
@@ -319,7 +318,6 @@ function resetFieldsStandard() {
   $('#frname').val('');
   $('#endescription').val('');
   $('#frdescription').val('');
-  $('#datecreated').val('');
   $('#enspecURL').val('');
   $('#frspecURL').val('');
   $('#enstandardOrg').val('');
@@ -342,9 +340,15 @@ function selectAdmin() {
 }
 
 function addValueToFieldsAdmin(obj) {
-  if (obj['contact']['email']) $('#contactemail').val(obj['contact']['email']);
+  $('#contactemail').val(obj['contact']['email']);
 
   if (obj['contact']['name']) $('#contactname').val(obj['contact']['name']);
+  if (obj['contact']['URL']) {
+    if (obj['contact']['URL']['en'])
+      $('#encontactURL').val(obj['contact']['URL']['en']);
+    if (obj['contact']['URL']['fr'])
+      $('#frcontactURL').val(obj['contact']['URL']['fr']);
+  }
 
   $('#enreferenceURL').val(obj['references'][0]['URL']['en']);
   $('#frreferenceURL').val(obj['references'][0]['URL']['fr']);
@@ -359,6 +363,7 @@ function resetFieldsAdmin() {
   $('#frcontactURL').val('');
   $('#contactemail').val('');
   $('#contactname').val('');
+  $('#datecreated').val('');
   $('#enreferenceURL').val('');
   $('#frreferenceURL').val('');
   $('#enreferencename').val('');

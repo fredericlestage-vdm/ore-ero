@@ -6,6 +6,9 @@ contact:
     fr: str(required=False)
   email: str(required=False)
   name: str(required=False)
+date:
+  created: str()
+  metadataLastUpdated: str()
 references:
   - URL:
       en: str()
