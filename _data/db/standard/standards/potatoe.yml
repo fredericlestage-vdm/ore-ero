@@ -1,0 +1,25 @@
+---
+schemaVersion: '1.0'
+date:
+  created: '2019-07-13'
+  metadataLastUpdated: '2019-07-30'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+name:
+  en: Potatoe
+  fr: Patate
+specURL:
+  en: 'http://www.google.com'
+  fr: 'http://www.google.ca'
+standardAcronym: POTATOE
+standardOrg:
+  en: Frederic Lestage Inc.
+  fr: Frédéric Lestage Inc.
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - fred

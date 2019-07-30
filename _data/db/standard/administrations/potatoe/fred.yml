@@ -1,0 +1,12 @@
+---
+adminCode: fred
+contact:
+  email: libre@ville.montreal.qc.ca
+references:
+  - URL:
+      en: 'http://www.google.com/ref'
+      fr: 'http://www.google.ca/reference'
+    name:
+      en: ref name
+      fr: nom ref
+status: mandatory-gc
