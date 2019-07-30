@@ -18,4 +18,10 @@ references:
     name:
       en: Reference
       fr: Référence
+  - URL:
+      en: 'http://www.google.com/reference3'
+      fr: 'http://www.google.ca/reference3'
+    name:
+      en: ref three
+      fr: réf trois
 status: mandatory-gc
