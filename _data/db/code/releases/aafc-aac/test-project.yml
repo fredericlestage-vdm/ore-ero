@@ -46,7 +46,6 @@ homepageURL:
 languages:
   - JavaScript
   - TypeScript
-  - test language
 organization:
   en: organization
   fr: organisation
@@ -78,4 +77,4 @@ relatedCode:
     name:
       en: related2
       fr: relié2
-status: Beta
+status: Retired
