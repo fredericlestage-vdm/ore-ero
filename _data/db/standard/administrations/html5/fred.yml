@@ -1,0 +1,16 @@
+---
+adminCode: fred
+contact:
+  email: frederic.lestage@montreal.ca
+  URL:
+    en: 'http://www.google.com/contact'
+    fr: 'http://www.google.com/contact'
+  name: contact
+references:
+  - URL:
+      en: 'http://www.google.com/ref'
+      fr: 'http://www.google.ca/reference'
+    name:
+      en: ref name
+      fr: nom ref
+status: mandatory-gc
