@@ -1,0 +1,25 @@
+---
+schemaVersion: '1.0'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+homepageURL:
+  en: 'http://www.google.com/homepage'
+  fr: 'http://www.google.ca/homepage'
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    spdxID: MIT
+name:
+  en: Frederic
+  fr: Frédéric
+tags:
+  en:
+    - TagEN
+    - RobotsEN
+  fr:
+    - TagFR
+    - PotatoeEN
+administrations:
+  - fred
