@@ -1,0 +1,27 @@
+---
+schemaVersion: '1.0'
+administration: fred
+contact:
+  email: frederic.lestage@montreal.ca
+date:
+  created: '2019-07-12'
+  metadataLastUpdated: '2019-07-30'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+name:
+  en: Frederic
+  fr: Frédéric
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    spdxID: MIT
+repositoryURL:
+  en: 'http://www.google.com/repository'
+  fr: 'http://www.google.ca/repertoire'
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
