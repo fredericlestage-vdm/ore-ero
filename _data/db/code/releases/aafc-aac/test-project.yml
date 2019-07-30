@@ -46,7 +46,6 @@ homepageURL:
 languages:
   - JavaScript
   - TypeScript
-  - test language
 organization:
   en: organization
   fr: organisation
