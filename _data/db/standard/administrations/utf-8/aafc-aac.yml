@@ -1,0 +1,12 @@
+---
+adminCode: aafc-aac
+contact:
+  email: frederic.lestage@montreal.ca
+references:
+  - URL:
+      en: 'http://www.google.com/ref'
+      fr: 'http://www.google.ca/reference'
+    name:
+      en: ref name
+      fr: nom ref
+status: mandatory-gc
