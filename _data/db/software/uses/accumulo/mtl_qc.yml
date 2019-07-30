@@ -3,12 +3,19 @@ administration: mtl_qc
 uses:
   - contact:
       email: libre@ville.montreal.qc.ca
+      URL:
+        en: 'http://www.google.com/contact'
+        fr: 'http://www.google.ca/contact'
+      name: contact
     date:
       started: '2019-01-31'
-      metadataLastUpdated: '2019-05-06'
+      metadataLastUpdated: '2019-07-30'
     description:
       en: Data managment.
       fr: Gestion des données.
     name:
       en: Software Database Management Systems.
       fr: Logiciels de systèmes de gestion de base de données.
+    status: Maintained
+    users:
+      - users
