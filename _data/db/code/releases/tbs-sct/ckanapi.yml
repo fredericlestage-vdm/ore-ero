@@ -6,23 +6,33 @@ contact:
   name: Christopher Jaja
 date:
   created: '2013-04-07'
-  metadataLastUpdated: '2018-03-26'
+  metadataLastUpdated: '2019-07-31'
 description:
   en: Command line interface and Python module for accessing the CKAN Action API
-  fr: Interface de ligne de commande et module Python pour accéder à l'API d'action CKAN
-languages:
-  - Python
+  fr: >-
+    Interface de ligne de commande et module Python pour accéder à l'API
+    d'action CKAN
 name:
   en: ckanapi
   fr: ckanapi
-organization:
-  en: Open Government
-  fr: Gouvernement Ouvert
 licences:
   - URL:
       en: 'https://github.com/ckan/ckanapi/blob/master/COPYING'
       fr: 'https://github.com/ckan/ckanapi/blob/master/COPYING.fr'
     spdxID: MIT
+repositoryURL:
+  en: 'https://github.com/ckan/ckanapi'
+  fr: 'https://github.com/ckan/ckanapi'
+tags:
+  en:
+    - CKAN Tool
+  fr:
+    - Outil CKAN
+languages:
+  - Python
+organization:
+  en: Open Government
+  fr: Gouvernement Ouvert
 relatedCode:
   - URL:
       en: 'https://github.com/ckan/ckan'
@@ -30,12 +40,4 @@ relatedCode:
     name:
       en: CKAN
       fr: CKAN
-repositoryURL:
-  en: 'https://github.com/ckan/ckanapi'
-  fr: 'https://github.com/ckan/ckanapi'
-status: Production
-tags:
-  en:
-    - CKAN Tool
-  fr:
-    - Outil CKAN
+status: !<tag:yaml.org,2002:js/undefined> ''
