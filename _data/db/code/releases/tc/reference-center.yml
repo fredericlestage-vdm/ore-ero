@@ -6,12 +6,16 @@ contact:
   name: Heather MacKeen
 date:
   created: '2018-10-14'
-  metadataLastUpdated: '2018-10-29'
+  metadataLastUpdated: '2019-07-31'
 description:
-  en: The Reference Centre is .net WPF application that was designed for Transport Canada Inspectors to quickly retrieve documents stored on a network drive that was setup with Windows Sync (Always Available Offline).
-  fr: Le Centre de référence est une application WPF .net conçue pour permettre aux inspecteurs de Transports Canada de récupérer rapidement les documents stockés sur un lecteur réseau configuré avec Windows Sync.
-languages:
-  - C#
+  en: >-
+    The Reference Centre is .net WPF application that was designed for Transport
+    Canada Inspectors to quickly retrieve documents stored on a network drive
+    that was setup with Windows Sync (Always Available Offline).
+  fr: >-
+    Le Centre de référence est une application WPF .net conçue pour permettre
+    aux inspecteurs de Transports Canada de récupérer rapidement les documents
+    stockés sur un lecteur réseau configuré avec Windows Sync.
 name:
   en: reference-center
   fr: reference-center
@@ -32,3 +36,5 @@ tags:
     - Fichiers
     - Synchronisation
     - Réseau
+languages:
+  - 'C#'
