@@ -80,7 +80,7 @@ releases:
       fr:
         - Essai
         - Plus d'essais
-    status: mangatory-gc
+    status: Maintained
   - contact:
       URL:
         en: >-
