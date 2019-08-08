@@ -4,8 +4,8 @@ adminCode: mtl_qc
 releases:
   - contact:
       URL:
-        en: https://www.google.com/contact
-        fr: https://www.google.ca/contact
+        en: 'https://www.google.com/contact'
+        fr: 'https://www.google.ca/contact'
       email: contact@email.com
       name: Contact
       phone: 514-123-4567
@@ -14,14 +14,14 @@ releases:
       lastModified: '2018-08-16'
       metadataLastUpdated: '2019-08-07'
     description:
-      en: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       fr: Mauris vel neque ac risus sagittis consequat.
     downloadURL:
-      en: https://www.google.com/download
-      fr: https://www.google.ca/telecharger
+      en: 'https://www.google.com/download'
+      fr: 'https://www.google.ca/telecharger'
     homepageURL:
-      en: https://www.google.com/homepage
-      fr: https://www.google.ca/accueil
+      en: 'https://www.google.com/homepage'
+      fr: 'https://www.google.ca/accueil'
     languages:
       - Javascript
       - 'C#'
@@ -35,41 +35,41 @@ releases:
       fr: Frédéric Lestage Inc.
     partners:
       - URL:
-          en: https://www.google.com/partner
-          fr: https://www.google.ca/partenaire
+          en: 'https://www.google.com/partner'
+          fr: 'https://www.google.ca/partenaire'
         email: partner@email.com
         name:
           en: Partner
           fr: Partenaire
       - URL:
-          en: https://www.google.com/partner2
-          fr: https://www.google.ca/partenaire2
+          en: 'https://www.google.com/partner2'
+          fr: 'https://www.google.ca/partenaire2'
         email: partner2@email.com
         name:
           en: Partner2
           fr: Partenaire2
     licences:
       - URL:
-          en: https://www.google.com/licence
-          fr: https://www.google.ca/licence
+          en: 'https://www.google.com/licence'
+          fr: 'https://www.google.ca/licence'
         spdxID: Licence
       - URL:
-          en: https://www.google.com/licence2
-          fr: https://www.google.ca/licence2
+          en: 'https://www.google.com/licence2'
+          fr: 'https://www.google.ca/licence2'
         spdxID: Licence2
     repositoryURL:
-      en: https://www.google.com/repository
-      fr: https://www.google.ca/repoertoire
+      en: 'https://www.google.com/repository'
+      fr: 'https://www.google.ca/repoertoire'
     relatedCode:
       - URL:
-          en: https://www.google.com/related
-          fr: https://www.google.ca/relie
+          en: 'https://www.google.com/related'
+          fr: 'https://www.google.ca/relie'
         name:
           en: Related
           fr: Relié
       - URL:
-          en: https://www.google.com/related2
-          fr: https://www.google.ca/relie2
+          en: 'https://www.google.com/related2'
+          fr: 'https://www.google.ca/relie2'
         name:
           en: Related2
           fr: Relié2
@@ -99,8 +99,10 @@ releases:
       fr: CKAN-Extension-Territoire
     licences:
       - URL:
-          en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-en.txt'
-          fr: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-fr.txt'
+          en: >-
+            https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-en.txt
+          fr: >-
+            https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-fr.txt
         spdxID: MIT
     relatedCode:
       - URL:
@@ -120,3 +122,65 @@ releases:
       fr:
         - Extension CKAN
         - Catalogue de données
+  - contact:
+      email: frederic.lestage@montreal.ca
+      URL:
+        en: 'https://www.google.com/contact'
+        fr: 'https://www.google.ca/contact'
+      name: Contact
+      phone: 456-123-9870
+    date:
+      created: '2019-08-07'
+      metadataLastUpdated: '2019-08-08'
+      lastModified: '2019-08-23'
+    description:
+      en: Best developper
+      fr: Meilleur développeur
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'https://www.google.com/licence'
+          fr: 'https://www.google.ca/licence'
+        spdxID: MIT
+    repositoryURL:
+      en: 'http://www.google.com/repository'
+      fr: 'http://www.google.ca/repertoire'
+    tags:
+      en:
+        - TagEN
+        - PotatoeEN
+      fr:
+        - TagFR
+        - PotatoeFR
+    downloadURL:
+      en: 'https://www.google.com/download'
+      fr: 'https://www.google.ca/telecharger'
+    homepageURL:
+      en: 'http://www.google.com/homepage'
+      fr: 'http://www.google.ca/homepage'
+    languages:
+      - C++
+      - C
+      - MySQL
+      - Potatoe
+    organization:
+      en: organization
+      fr: organisation
+    partners:
+      - URL:
+          en: 'https://www.google.com/partner'
+          fr: 'https://www.google.ca/partenaire'
+        email: partner@email.com
+        name:
+          en: Partner
+          fr: Partenaire
+    relatedCode:
+      - URL:
+          en: 'http://www.google.com/related'
+          fr: 'http://www.google.ca/relié'
+        name:
+          en: related
+          fr: relié
+    status: Maintained
