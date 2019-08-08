@@ -43,10 +43,10 @@ administrations:
     status: mandatory-gc
   - adminCode: lac-bac
     contact:
-      email: 'null'
+      email: null@email.com
     date:
       created: '2018-01-23'
-      metadataLastUpdated: '2018-11-15'
+      metadataLastUpdated: '2019-08-08'
     references:
       - URL:
           en: >-
