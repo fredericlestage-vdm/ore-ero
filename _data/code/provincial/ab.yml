@@ -69,7 +69,7 @@ releases:
         fr: 'https://github.com/abgov/ckanext-geomapviewer/issues'
     date:
       created: '2016-08-03'
-      metadataLastUpdated: '2016-08-03'
+      metadataLastUpdated: '2019-08-08'
     description:
       en: Ckan Geo Map Viewer Extension
       fr: Extension Ckan de la carte géographique
