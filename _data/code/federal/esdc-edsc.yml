@@ -32,7 +32,7 @@ releases:
       email: calvin.rodo@hrsdc-rhdcc.gc.ca
     date:
       created: '2019-02-13'
-      metadataLastUpdated: '2019-02-21'
+      metadataLastUpdated: '2019-08-08'
     description:
       en: A .Net test app for the Code Coverage reporting dashboard
       fr: >-
