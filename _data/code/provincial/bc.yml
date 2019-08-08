@@ -101,7 +101,7 @@ releases:
       fr: 'https://developer.gov.bc.ca/'
     languages:
       - JavaScript
-    status: Development
+    status: Maintained
   - contact:
       email: NRSApplications@gov.bc.ca
       URL:
