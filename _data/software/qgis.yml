@@ -33,3 +33,16 @@ administrations:
         name:
           en: Geographic Information Systems (GIS)
           fr: Systèmes d'information géographique (SIG)
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+        date:
+          started: '2019-08-07'
+          metadataLastUpdated: '2019-08-08'
+        description:
+          en: descEN
+          fr: descFR
+        name:
+          en: useEN
+          fr: useFR
