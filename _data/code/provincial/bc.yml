@@ -76,7 +76,7 @@ releases:
         fr: 'https://github.com/bcgov/devhub-app-web/issues'
     date:
       created: '2017-10-20'
-      metadataLastUpdated: '2019-05-10'
+      metadataLastUpdated: '2019-08-08'
     description:
       en: Web application for the DevHub.
       fr: Application Web pour le DevHub.
@@ -101,7 +101,7 @@ releases:
       fr: 'https://developer.gov.bc.ca/'
     languages:
       - JavaScript
-    status: Development
+    status: !<tag:yaml.org,2002:js/undefined> ''
   - contact:
       email: NRSApplications@gov.bc.ca
       URL:
