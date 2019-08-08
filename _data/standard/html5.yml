@@ -26,10 +26,10 @@ tags:
 administrations:
   - adminCode: tbs-sct
     contact:
-      email: 'null'
+      email: null@email.com
     date:
       created: '2018-01-23'
-      metadataLastUpdated: '2018-11-15'
+      metadataLastUpdated: '2019-08-08'
     references:
       - URL:
           en: 'https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25875'
