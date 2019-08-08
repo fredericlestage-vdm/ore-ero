@@ -9,7 +9,7 @@ releases:
         fr: 'https://github.com/CSBP-CPSE/OpenTabulate/issues'
     date:
       created: '2018-01-07'
-      metadataLastUpdated: '2019-04-18'
+      metadataLastUpdated: '2019-08-08'
     description:
       en: 'Centralize, process, and clean data'
       fr: 'Centraliser, traiter et nettoyer les données'
