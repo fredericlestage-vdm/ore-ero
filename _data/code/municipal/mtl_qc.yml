@@ -14,7 +14,7 @@ releases:
       metadataLastUpdated: '2019-08-07'
       lastModified: '2018-08-16'
     description:
-      en: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       fr: Mauris vel neque ac risus sagittis consequat.
     name:
       en: Lorem
@@ -97,8 +97,10 @@ releases:
       fr: CKAN-Extension-Territoire
     licences:
       - URL:
-          en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-en.txt'
-          fr: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-fr.txt'
+          en: >-
+            https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-en.txt
+          fr: >-
+            https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-fr.txt
         spdxID: MIT
     repositoryURL:
       en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire'
