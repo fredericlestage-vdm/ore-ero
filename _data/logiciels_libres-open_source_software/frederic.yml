@@ -1,0 +1,42 @@
+---
+schemaVersion: '1.0'
+description:
+  en: Best developper
+  fr: Meilleur développeur
+homepageURL:
+  en: 'http://www.google.com/homepage'
+  fr: 'http://www.google.ca/homepage'
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    spdxID: MIT
+name:
+  en: Frederic
+  fr: Frédéric
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+          URL:
+            en: 'http://www.google.com/contact'
+            fr: 'http://www.google.ca/contact'
+          name: contact
+        date:
+          started: '2015-12-31'
+          metadataLastUpdated: '2019-08-08'
+        description:
+          en: descEN
+          fr: descFR
+        name:
+          en: useEN
+          fr: useFR
+        status: Alpha
+        users:
+          - users
