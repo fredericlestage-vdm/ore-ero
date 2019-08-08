@@ -3,76 +3,34 @@ schemaVersion: '1.0'
 adminCode: mtl_qc
 releases:
   - contact:
-      URL:
-        en: https://www.google.com/contact
-        fr: https://www.google.ca/contact
       email: contact@email.com
+      URL:
+        en: 'https://www.google.com/contact'
+        fr: 'https://www.google.ca/contact'
       name: Contact
       phone: 514-123-4567
     date:
       created: '2012-01-13'
-      lastModified: '2018-08-16'
       metadataLastUpdated: '2019-08-07'
+      lastModified: '2018-08-16'
     description:
       en: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       fr: Mauris vel neque ac risus sagittis consequat.
-    downloadURL:
-      en: https://www.google.com/download
-      fr: https://www.google.ca/telecharger
-    homepageURL:
-      en: https://www.google.com/homepage
-      fr: https://www.google.ca/accueil
-    languages:
-      - Javascript
-      - 'C#'
-      - Python
-      - Test language
     name:
       en: Lorem
       fr: Ipsum
-    organization:
-      en: Frederic Lestage Inc.
-      fr: Frédéric Lestage Inc.
-    partners:
-      - URL:
-          en: https://www.google.com/partner
-          fr: https://www.google.ca/partenaire
-        email: partner@email.com
-        name:
-          en: Partner
-          fr: Partenaire
-      - URL:
-          en: https://www.google.com/partner2
-          fr: https://www.google.ca/partenaire2
-        email: partner2@email.com
-        name:
-          en: Partner2
-          fr: Partenaire2
     licences:
       - URL:
-          en: https://www.google.com/licence
-          fr: https://www.google.ca/licence
+          en: 'https://www.google.com/licence'
+          fr: 'https://www.google.ca/licence'
         spdxID: Licence
       - URL:
-          en: https://www.google.com/licence2
-          fr: https://www.google.ca/licence2
+          en: 'https://www.google.com/licence2'
+          fr: 'https://www.google.ca/licence2'
         spdxID: Licence2
     repositoryURL:
-      en: https://www.google.com/repository
-      fr: https://www.google.ca/repoertoire
-    relatedCode:
-      - URL:
-          en: https://www.google.com/related
-          fr: https://www.google.ca/relie
-        name:
-          en: Related
-          fr: Relié
-      - URL:
-          en: https://www.google.com/related2
-          fr: https://www.google.ca/relie2
-        name:
-          en: Related2
-          fr: Relié2
+      en: 'https://www.google.com/repository'
+      fr: 'https://www.google.ca/repoertoire'
     tags:
       en:
         - Test
@@ -80,20 +38,60 @@ releases:
       fr:
         - Essai
         - Plus d'essais
+    downloadURL:
+      en: 'https://www.google.com/download'
+      fr: 'https://www.google.ca/telecharger'
+    homepageURL:
+      en: 'https://www.google.com/homepage'
+      fr: 'https://www.google.ca/accueil'
+    languages:
+      - Javascript
+      - 'C#'
+      - Python
+      - Test language
+    organization:
+      en: Frederic Lestage Inc.
+      fr: Frédéric Lestage Inc.
+    partners:
+      - URL:
+          en: 'https://www.google.com/partner'
+          fr: 'https://www.google.ca/partenaire'
+        email: partner@email.com
+        name:
+          en: Partner
+          fr: Partenaire
+      - URL:
+          en: 'https://www.google.com/partner2'
+          fr: 'https://www.google.ca/partenaire2'
+        email: partner2@email.com
+        name:
+          en: Partner2
+          fr: Partenaire2
+    relatedCode:
+      - URL:
+          en: 'https://www.google.com/related'
+          fr: 'https://www.google.ca/relie'
+        name:
+          en: Related
+          fr: Relié
+      - URL:
+          en: 'https://www.google.com/related2'
+          fr: 'https://www.google.ca/relie2'
+        name:
+          en: Related2
+          fr: Relié2
     status: Maintained
   - contact:
+      email: julio.alcantara@ville.montreal.qc.ca
       URL:
         en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/issues'
         fr: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/issues'
-      email: julio.alcantara@ville.montreal.qc.ca
     date:
       created: '2014-02-14'
       metadataLastUpdated: '2019-01-29'
     description:
       en: City of Montreal CKAN Extension
       fr: Extension CKAN de la ville de Montréal
-    languages:
-      - Python
     name:
       en: CKAN-Extension-Territoire
       fr: CKAN-Extension-Territoire
@@ -102,17 +100,9 @@ releases:
           en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-en.txt'
           fr: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire/blob/master/Licence-fr.txt'
         spdxID: MIT
-    relatedCode:
-      - URL:
-          en: 'https://github.com/ckan/ckan'
-          fr: 'https://github.com/ckan/ckan'
-        name:
-          en: CKAN
-          fr: CKAN
     repositoryURL:
       en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire'
       fr: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire'
-    status: Production
     tags:
       en:
         - CKAN Extension
@@ -120,3 +110,13 @@ releases:
       fr:
         - Extension CKAN
         - Catalogue de données
+    languages:
+      - Python
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'https://github.com/ckan/ckan'
+        name:
+          en: CKAN
+          fr: CKAN
+    status: Production
