@@ -12,8 +12,10 @@ homepageURL:
   fr: 'https://www.elastic.co/fr/products/elasticsearch'
 licences:
   - URL:
-      en: 'https://www.elastic.co/guide/en/elasticsearch/hadoop/current/license.html'
-      fr: 'https://www.elastic.co/guide/en/elasticsearch/hadoop/current/license.html'
+      en: >-
+        https://www.elastic.co/guide/en/elasticsearch/hadoop/current/license.html
+      fr: >-
+        https://www.elastic.co/guide/en/elasticsearch/hadoop/current/license.html
     spdxID: Apache-2.0
 name:
   en: Elasticsearch

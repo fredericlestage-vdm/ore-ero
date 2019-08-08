@@ -56,13 +56,6 @@ administrations:
         name:
           en: Open Government Portal
           fr: Portail du Gouvernement ouvert
-        relatedCode:
-          URL:
-            en: 'https://github.com/open-data/od'
-            fr: 'https://github.com/open-data/od'
-          name:
-            en: open data
-            fr: données ouvertes
         users:
           - public
   - adminCode: tc
