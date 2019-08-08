@@ -31,7 +31,7 @@ releases:
         - Échange de développeurs
     languages:
       - Python
-    status: Production
+    status: Maintained
   - contact:
       email: todd.wilson@gov.bc.ca
       URL:
@@ -68,7 +68,7 @@ releases:
         - données-eaux souterraines
     languages:
       - JavaScript
-    status: Production
+    status: Maintained
   - contact:
       email: todd.wilson@gov.bc.ca
       URL:
@@ -134,4 +134,4 @@ releases:
       fr: 'http://catalogue.data.gov.bc.ca'
     languages:
       - Python
-    status: Production
+    status: Maintained

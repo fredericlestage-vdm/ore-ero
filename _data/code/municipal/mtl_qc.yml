@@ -119,4 +119,4 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained

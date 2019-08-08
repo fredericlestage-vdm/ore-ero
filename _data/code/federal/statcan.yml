@@ -11,8 +11,8 @@ releases:
       created: '2018-01-07'
       metadataLastUpdated: '2019-04-18'
     description:
-      en: Centralize, process, and clean data
-      fr: Centraliser, traiter et nettoyer les données
+      en: 'Centralize, process, and clean data'
+      fr: 'Centraliser, traiter et nettoyer les données'
     name:
       en: OpenTabulate
       fr: OpenTabulate

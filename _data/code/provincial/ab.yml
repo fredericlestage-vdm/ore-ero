@@ -31,7 +31,7 @@ releases:
         - Extension CKAN
     languages:
       - Python
-    status: Production
+    status: Maintained
   - contact:
       email: open@gov.ab.ca
       URL:
@@ -61,7 +61,7 @@ releases:
         - Extension CKAN
     languages:
       - Python
-    status: Production
+    status: Maintained
   - contact:
       email: open@gov.ab.ca
       URL:
@@ -91,4 +91,4 @@ releases:
         - Extension CKAN
     languages:
       - Python
-    status: Production
+    status: Maintained

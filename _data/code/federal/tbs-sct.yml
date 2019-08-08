@@ -15,8 +15,10 @@ releases:
       fr: GCconnex
     licences:
       - URL:
-          en: 'https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt'
-          fr: 'https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt'
+          en: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
+          fr: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
         spdxID: GPL-2.0
     repositoryURL:
       en: 'https://github.com/gctools-outilsgc/gcconnex'
@@ -35,9 +37,11 @@ releases:
       en: Digital Enablement Division
       fr: Division de la mobilisation numérique
     relatedCode:
-      - URL: 'https://github.com/Elgg/Elgg'
-        name: Elgg
-    status: Production
+      - URL:
+          en: 'https://github.com/Elgg/Elgg'
+        name:
+          en: Elgg
+    status: Maintained
   - contact:
       email: cds-snc@tbs-sct.gc.ca
     date:
@@ -114,8 +118,7 @@ releases:
     licences:
       - URL:
           en: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING'
-          fr: >-
-            https://github.com/open-data/ckanext-canada/blob/master/COPYING.fr
+          fr: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING.fr'
         spdxID: MIT
     repositoryURL:
       en: 'https://github.com/open-data/ckanext-canada'
@@ -137,7 +140,7 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained
   - contact:
       email: Christopher.Jaja@tbs-sct.gc.ca
       name: Christopher Jaja
@@ -146,8 +149,7 @@ releases:
       metadataLastUpdated: '2018-03-26'
     description:
       en: Store CKAN resources against multiple cloud providers.
-      fr: >-
-        Stocker les ressources CKAN contre plusieurs fournisseurs infonuagique.
+      fr: Stocker les ressources CKAN contre plusieurs fournisseurs infonuagique.
     name:
       en: ckanext-cloudstorage
       fr: ckanext-cloudstorage
@@ -178,7 +180,7 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained
   - contact:
       email: Christopher.Jaja@tbs-sct.gc.ca
       name: Christopher Jaja
@@ -186,7 +188,7 @@ releases:
       created: '2013-09-08'
       metadataLastUpdated: '2018-03-26'
     description:
-      en: Easy, shareable custom CKAN schemas
+      en: 'Easy, shareable custom CKAN schemas'
     name:
       en: ckanext-scheming
       fr: ckanext-scheming
@@ -215,7 +217,7 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained
   - contact:
       email: Christopher.Jaja@tbs-sct.gc.ca
       name: Christopher Jaja
@@ -257,7 +259,7 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained
   - contact:
       email: Christopher.Jaja@tbs-sct.gc.ca
       name: Christopher Jaja
@@ -294,7 +296,7 @@ releases:
         name:
           en: CKAN
           fr: CKAN
-    status: Production
+    status: Maintained
   - contact:
       email: sebastien.lemay@canada.ca
     date:
