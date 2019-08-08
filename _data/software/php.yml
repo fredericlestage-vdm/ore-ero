@@ -33,7 +33,7 @@ administrations:
             fr: 'https://www.international.gc.ca'
         date:
           started: '2019-05-06'
-          metadataLastUpdated: '2019-05-16'
+          metadataLastUpdated: '2019-08-08'
         description:
           en: Used to server many Web sites.
           fr: Utilisé pour servir plusieur site Web.
