@@ -1,8 +1,5 @@
 ---
 schemaVersion: str()
-date:
-  created: str()
-  metadataLastUpdated: str()
 description:
   en: str()
   fr: str()
@@ -29,6 +26,9 @@ administrations:
         en: str(required=False)
         fr: str(required=False)
       name: str(required=False)
+    date:
+      created: str()
+      metadataLastUpdated: str()
     references:
       - URL:
           en: str()
