@@ -24,10 +24,10 @@ tags:
 administrations:
   - adminCode: str()
     contact:
+      email: str()
       URL:
         en: str(required=False)
         fr: str(required=False)
-      email: str()
       name: str(required=False)
     references:
       - URL:
