@@ -30,7 +30,7 @@ administrations:
           email: sebastien.lemay@canada.ca
         date:
           started: '2019-05-06'
-          metadataLastUpdated: '2019-05-13'
+          metadataLastUpdated: '2019-08-08'
         description:
           en: Upgraded to latest ESR version every month.
           fr: Mises à jours mensuelles à la dernière version ESR.
