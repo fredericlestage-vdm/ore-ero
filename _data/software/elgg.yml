@@ -38,9 +38,6 @@ administrations:
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'
-        name:
-          en: GCcollab
-          fr: GCcollab
         description:
           en: >-
             External social networking platform hosted by the Government of
@@ -48,6 +45,9 @@ administrations:
           fr: >-
             Plateforme de réseautage social externe hébergée par le gouvernement
             du Canada
+        name:
+          en: GCcollab
+          fr: GCcollab
       - contact:
           email: ilia.salem@tbs-sct.gc.ca
           URL:
@@ -56,11 +56,11 @@ administrations:
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'
-        name:
-          en: GCconnex
-          fr: GCconnex
         description:
           en: Internal social networking platform for the Government of Canada
           fr: >-
             Plateforme de réseautage social interne pour le gouvernement du
             Canada
+        name:
+          en: GCconnex
+          fr: GCconnex

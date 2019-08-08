@@ -36,9 +36,9 @@ administrations:
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-16'
-        name:
-          en: Available to all employees
-          fr: Disponible pour tous les employés
         description:
           en: Must be requeted from the AppStore.
           fr: Disponible au AppStore.
+        name:
+          en: Available to all employees
+          fr: Disponible pour tous les employés
