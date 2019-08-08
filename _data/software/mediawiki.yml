@@ -25,10 +25,10 @@ administrations:
   - adminCode: tbs-sct
     uses:
       - contact:
+          email: ilia.salem@tbs-sct.gc.ca
           URL:
             en: 'https://github.com/gctools-outilsgc/gcpedia/issues'
             fr: 'https://github.com/gctools-outilsgc/gcpedia/issues'
-          email: ilia.salem@tbs-sct.gc.ca
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-16'
@@ -39,10 +39,10 @@ administrations:
           en: Internal Government of Canada Wiki
           fr: Wiki interne du gouvernement du Canada
       - contact:
+          email: ilia.salem@tbs-sct.gc.ca
           URL:
             en: 'https://github.com/gctools-outilsgc/gcpedia/issues'
             fr: 'https://github.com/gctools-outilsgc/gcpedia/issues'
-          email: ilia.salem@tbs-sct.gc.ca
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-16'

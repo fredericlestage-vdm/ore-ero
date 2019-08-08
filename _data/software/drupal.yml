@@ -42,10 +42,10 @@ administrations:
   - adminCode: tbs-sct
     uses:
       - contact:
+          email: christopher.jaja@tbs-sct.gc.ca
           URL:
             en: 'https://github.com/canada-ca/ore-ero/issues'
             fr: 'https://github.com/canada-ca/ore-ero/issues'
-          email: christopher.jaja@tbs-sct.gc.ca
           name: Christopher Jaja
         date:
           started: '2018-01-23'
@@ -68,8 +68,8 @@ administrations:
   - adminCode: tc
     uses:
       - contact:
-          name: Irina Krasteleva
           email: irina.krasteleva@tc.gc.ca
+          name: Irina Krasteleva
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'

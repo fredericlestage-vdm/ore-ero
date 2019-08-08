@@ -27,8 +27,8 @@ administrations:
   - adminCode: tc
     uses:
       - contact:
-          name: Irina Krasteleva
           email: irina.krasteleva@tc.gc.ca
+          name: Irina Krasteleva
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'

@@ -31,10 +31,10 @@ administrations:
   - adminCode: tbs-sct
     uses:
       - contact:
+          email: ilia.salem@tbs-sct.gc.ca
           URL:
             en: 'https://github.com/gctools-outilsgc/gcconnex/issues'
             fr: 'https://github.com/gctools-outilsgc/gcconnex/issues'
-          email: ilia.salem@tbs-sct.gc.ca
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'
@@ -49,10 +49,10 @@ administrations:
             Plateforme de réseautage social externe hébergée par le gouvernement
             du Canada
       - contact:
-          URL:
-          en: 'https://github.com/gctools-outilsgc/gcconnex/issues'
-          fr: 'https://github.com/gctools-outilsgc/gcconnex/issues'
           email: ilia.salem@tbs-sct.gc.ca
+          URL:
+            en: 'https://github.com/gctools-outilsgc/gcconnex/issues'
+            fr: 'https://github.com/gctools-outilsgc/gcconnex/issues'
         date:
           started: '2019-05-06'
           metadataLastUpdated: '2019-05-13'

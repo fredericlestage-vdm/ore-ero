@@ -23,10 +23,10 @@ administrations:
   - adminCode: str()
     uses:
       - contact:
+          email: str()
           URL:
             en: str(required=False)
             fr: str(required=False)
-          email: str()
           name: str(required=False)
         date:
           started: str()
