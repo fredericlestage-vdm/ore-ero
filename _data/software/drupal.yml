@@ -49,20 +49,13 @@ administrations:
           name: Christopher Jaja
         date:
           started: '2018-01-23'
-          metadataLastUpdated: '2019-05-06'
+          metadataLastUpdated: '2019-08-08'
         description:
           en: Drupal 8 install profile for open.canada.ca
           fr: Profil d'installation de Drupal 8 pour open.canada.ca
         name:
           en: Open Government Portal
           fr: Portail du Gouvernement ouvert
-        relatedCode:
-          URL:
-            en: 'https://github.com/open-data/od'
-            fr: 'https://github.com/open-data/od'
-          name:
-            en: open data
-            fr: données ouvertes
         users:
           - public
   - adminCode: tc
