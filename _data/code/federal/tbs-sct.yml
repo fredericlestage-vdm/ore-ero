@@ -6,7 +6,7 @@ releases:
       email: gcconnex@tbs-sct.gc.ca
     date:
       created: '2014-08-21'
-      metadataLastUpdated: '2019-01-31'
+      metadataLastUpdated: '2019-08-08'
     description:
       en: GC digital collaboration platform (GCconnex and GCcollab)
       fr: Plateforme de collaboration numérique du GC (GCconnex and GCcollab)
@@ -15,8 +15,10 @@ releases:
       fr: GCconnex
     licences:
       - URL:
-          en: 'https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt'
-          fr: 'https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt'
+          en: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
+          fr: >-
+            https://github.com/gctools-outilsgc/gcconnex/blob/gcconnex/LICENSE.txt
         spdxID: GPL-2.0
     repositoryURL:
       en: 'https://github.com/gctools-outilsgc/gcconnex'
@@ -31,13 +33,7 @@ releases:
     languages:
       - PHP
       - MySQL
-    organization:
-      en: Digital Enablement Division
-      fr: Division de la mobilisation numérique
-    relatedCode:
-      - URL: 'https://github.com/Elgg/Elgg'
-        name: Elgg
-    status: Production
+    status: !<tag:yaml.org,2002:js/undefined> ''
   - contact:
       email: cds-snc@tbs-sct.gc.ca
     date:
@@ -114,8 +110,7 @@ releases:
     licences:
       - URL:
           en: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING'
-          fr: >-
-            https://github.com/open-data/ckanext-canada/blob/master/COPYING.fr
+          fr: 'https://github.com/open-data/ckanext-canada/blob/master/COPYING.fr'
         spdxID: MIT
     repositoryURL:
       en: 'https://github.com/open-data/ckanext-canada'
@@ -146,8 +141,7 @@ releases:
       metadataLastUpdated: '2018-03-26'
     description:
       en: Store CKAN resources against multiple cloud providers.
-      fr: >-
-        Stocker les ressources CKAN contre plusieurs fournisseurs infonuagique.
+      fr: Stocker les ressources CKAN contre plusieurs fournisseurs infonuagique.
     name:
       en: ckanext-cloudstorage
       fr: ckanext-cloudstorage
@@ -186,7 +180,7 @@ releases:
       created: '2013-09-08'
       metadataLastUpdated: '2018-03-26'
     description:
-      en: Easy, shareable custom CKAN schemas
+      en: 'Easy, shareable custom CKAN schemas'
     name:
       en: ckanext-scheming
       fr: ckanext-scheming
