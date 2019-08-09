@@ -7,9 +7,10 @@ releases:
       URL:
         en: 'https://projects.eclipse.org/projects/technology.apogy/contact'
         fr: 'https://projects.eclipse.org/projects/technology.apogy/contact'
+      name: contact
     date:
       created: '2015-09-28'
-      metadataLastUpdated: '2019-01-31'
+      metadataLastUpdated: '2019-08-09'
     description:
       en: 'The one-stop-shop solution for operating robots, satellites and beyond'
       fr: >-
@@ -33,5 +34,9 @@ releases:
       fr:
         - Robots
         - Espace
+    downloadURL:
+      en: 'http://www.google.com/download'
+      fr: 'http://www.google.ca/download'
     languages:
       - Java
+    status: Maintained
