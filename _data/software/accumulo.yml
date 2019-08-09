@@ -37,3 +37,19 @@ administrations:
         name:
           en: Software Database Management Systems.
           fr: Logiciels de systèmes de gestion de base de données.
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+          URL:
+            en: 'http://www.google.com/contact'
+            fr: 'http://www.google.ca/contact'
+        date:
+          started: '2019-08-05'
+          metadataLastUpdated: '2019-08-09'
+        description:
+          en: descEN
+          fr: descFR
+        name:
+          en: useEN
+          fr: useFR
