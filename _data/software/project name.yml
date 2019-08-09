@@ -1,0 +1,35 @@
+---
+schemaVersion: '1.0'
+description:
+  en: english description
+  fr: description française
+homepageURL:
+  en: ''
+  fr: ''
+licences:
+  - URL:
+      en: 'https://en.wikipedia.org/wiki/MIT_License'
+      fr: 'https://fr.wikipedia.org/wiki/MIT_License'
+    spdxID: MIT
+name:
+  en: project name
+  fr: nom du projet
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+        date:
+          started: '2015-12-31'
+          metadataLastUpdated: '2019-08-09'
+        description:
+          en: descEN
+          fr: descFR
+        name:
+          en: useEN
+          fr: useFR
