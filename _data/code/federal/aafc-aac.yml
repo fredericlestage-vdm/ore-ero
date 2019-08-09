@@ -1,0 +1,94 @@
+---
+schemaVersion: '1.0'
+adminCode: aafc-aac
+releases:
+  - contact:
+      email: frederic.lestage@montreal.ca
+      URL:
+        en: 'http://www.google.com/contact'
+        fr: 'http://www.google.ca/contact'
+      name: contact
+      phone: 780-667-8058
+    date:
+      created: '2007-06-26'
+      metadataLastUpdated: '2019-08-09'
+      lastModified: '2017-09-24'
+    description:
+      en: Best developper
+      fr: Meilleur développeur
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'http://www.google.com'
+          fr: 'http://www.google.ca'
+        spdxID: MIT
+      - URL:
+          en: 'https://www.google.com/licence2'
+          fr: 'https://www.google.ca/licence2'
+        spdxID: MIT2
+    repositoryURL:
+      en: 'http://www.google.com/repository'
+      fr: 'http://www.google.ca/repertoire'
+    tags:
+      en:
+        - TagEN
+        - PotatoeEN
+        - Space
+        - Robots
+      fr:
+        - TagFR
+        - PotatoeFR
+        - Espace
+        - Robots
+    downloadURL:
+      en: 'http://www.google.com/download'
+      fr: 'https://www.google.ca/telecharger'
+    homepageURL:
+      en: 'http://www.google.com/homepage'
+      fr: 'http://www.google.ca/homepage'
+    languages:
+      - Java
+      - Python
+      - C++
+      - C
+      - PHP
+      - MySQL
+      - JavaScript
+      - 'C#'
+      - TypeScript
+      - test language
+      - Potatoe
+    organization:
+      en: organization
+      fr: organisation
+    partners:
+      - URL:
+          en: 'http://www.google.com/partner'
+          fr: 'http://www.google.ca/partenaire'
+        email: contact@partner.com
+        name:
+          en: partner
+          fr: partenaire
+      - URL:
+          en: 'http://www.google.com/partner2'
+          fr: 'https://www.google.ca/partenaire2'
+        email: contact@partner2.com
+        name:
+          en: partner2
+          fr: partenaire2
+    relatedCode:
+      - URL:
+          en: 'http://www.google.com/related'
+          fr: 'http://www.google.ca/relie'
+        name:
+          en: related
+          fr: relié
+      - URL:
+          en: 'http://www.google.com/related2'
+          fr: 'https://www.google.ca/relie2'
+        name:
+          en: related2
+          fr: relié2
+    status: Maintained
