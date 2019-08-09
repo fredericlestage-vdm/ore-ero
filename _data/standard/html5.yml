@@ -26,15 +26,15 @@ tags:
 administrations:
   - adminCode: tbs-sct
     contact:
-      email: 'null'
+      email: frederic.lestage@montreal.ca
     date:
-      created: '2018-01-23'
-      metadataLastUpdated: '2018-11-15'
+      created: '2019-08-08'
+      metadataLastUpdated: '2019-08-09'
     references:
       - URL:
-          en: 'https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=25875'
-          fr: 'https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=25875'
+          en: 'http://www.google.com/ref'
+          fr: 'http://www.google.ca/reference'
         name:
-          en: Standard on Web Interoperability
-          fr: Norme sur l'interopérabilité du Web
-    status: mandatory-gc
+          en: ref name
+          fr: nom ref
+    status: general gc
