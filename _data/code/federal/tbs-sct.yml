@@ -345,14 +345,11 @@ releases:
       email: sebastien.lemay@canada.ca
     date:
       created: '2017-12-31'
-      metadataLastUpdated: '2019-03-06'
+      metadataLastUpdated: '2019-08-14'
     description:
       whatItDoes:
         en: This Website and all the data.
         fr: Ce site Web et toutes les données.
-      howItWorks:
-        en: null
-        fr: null
     category: '43232300'
     name:
       en: Open Resource Exchange
