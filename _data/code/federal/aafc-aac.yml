@@ -1,0 +1,60 @@
+---
+schemaVersion: '1.0'
+adminCode: aafc-aac
+releases:
+  - contact:
+      email: apogy-dev@eclipse.org
+      name: contact
+    date:
+      created: '2017-12-31'
+      metadataLastUpdated: '2019-08-15'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+      howItWorks:
+        en: How it works EN
+        fr: How it works FR
+    category: '43232000'
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'http://www.google.com'
+          fr: 'https://github.com/apache/accumulo/blob/master/LICENSE'
+        spdxID: AFL-2.0
+    repositoryURL:
+      en: 'https://github.com/VilledeMontreal/CKAN-Extension-Territoire'
+      fr: 'http://www.google.ca'
+    tags:
+      en:
+        - TagEN
+      fr:
+        - TagFR
+    downloadURL:
+      en: 'http://www.google.com/download'
+      fr: 'https://www.google.ca/telecharger'
+    homepageURL:
+      en: 'https://accumulo.apache.org/'
+      fr: 'https://accumulo.apache.org/'
+    languages:
+      - Python
+      - JavaScript
+      - Test
+    partners:
+      - email: contact@partner.com
+        name:
+          en: partner
+          fr: partenaire
+    relatedCode:
+      - URL:
+          en: 'https://github.com/ckan/ckan'
+          fr: 'http://www.google.ca/relié'
+        name:
+          en: relié
+          fr: relié
+    status: Maintained
+    team:
+      en: Team EN
+      fr: Team FR
