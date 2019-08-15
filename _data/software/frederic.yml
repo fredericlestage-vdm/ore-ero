@@ -1,0 +1,38 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: What it does EN
+    fr: Waht it does FR
+  howItWorks:
+    en: How it works EN
+    fr: How it works FR
+category: '43232900'
+homepageURL:
+  en: 'http://www.google.com/homepage'
+  fr: 'http://www.google.ca/homepage'
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    spdxID: AFL-3.0
+name:
+  en: Frederic
+  fr: Frédéric
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+          name: contact
+        date:
+          started: '2019-06-06'
+          metadataLastUpdated: '2019-08-15'
+        team:
+          en: team EN
+          fr: team FE
