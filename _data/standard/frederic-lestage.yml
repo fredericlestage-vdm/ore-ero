@@ -1,0 +1,36 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: What it does EN
+    fr: What it does FR
+name:
+  en: Frederic
+  fr: Frédéric
+specURL:
+  en: 'http://www.google.com'
+  fr: 'http://www.google.ca'
+standardAcronym: FREDERIC-LESTAGE
+standardOrg:
+  en: Frederic Lestage Inc.
+  fr: Frédéric Lestage Inc.
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - adminCode: aafc-aac
+    contact:
+      email: frederic.lestage@montreal.ca
+    date:
+      created: '2019-08-06'
+      metadataLastUpdated: '2019-08-15'
+    references:
+      - URL:
+          en: 'http://www.google.com/ref'
+          fr: 'http://www.google.ca/reference'
+        name:
+          en: ref name
+          fr: nom ref
+    status: mandatory
