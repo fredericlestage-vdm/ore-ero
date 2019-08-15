@@ -9,14 +9,10 @@ releases:
       metadataLastUpdated: '2019-01-31'
     description:
       whatItDoes:
-        en: >-
-          The one-stop-shop solution for operating robots, satellites and beyond
+        en: 'The one-stop-shop solution for operating robots, satellites and beyond'
         fr: >-
           Un logiciel polyvalent pour faire fonctionner des robots et des
           satellites
-      howItWorks:
-        en: null
-        fr: null
     category: '43232600'
     name:
       en: Apogy
@@ -38,3 +34,29 @@ releases:
         - Espace
     languages:
       - Java
+  - contact:
+      email: frederic.lestage@montreal.ca
+    date:
+      created: '2019-08-16'
+      metadataLastUpdated: '2019-08-15'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    category: '43232800'
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'http://www.google.com'
+          fr: 'http://www.google.ca'
+        spdxID: AFL-2.0
+    repositoryURL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    tags:
+      en:
+        - TagEN
+      fr:
+        - TagFR
