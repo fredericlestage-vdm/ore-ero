@@ -1,0 +1,63 @@
+---
+schemaVersion: '1.0'
+adminCode: aafc-aac
+releases:
+  - contact:
+      email: frederic.lestage@montreal.ca
+      name: contact
+    date:
+      created: '2019-08-12'
+      metadataLastUpdated: '2019-08-15'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+      howItWorks:
+        en: How it works EN
+        fr: How it works FR
+    category: '43232200'
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'http://www.google.com'
+          fr: 'http://www.google.ca'
+        spdxID: AFL-2.0
+    repositoryURL:
+      en: 'http://www.google.com/repository'
+      fr: 'http://www.google.ca/repertoire'
+    tags:
+      en:
+        - TagEN
+        - PotatoeEN
+      fr:
+        - TagFR
+        - PotatoeFR
+    downloadURL:
+      en: 'http://www.google.com/download'
+      fr: 'http://www.google.ca/download'
+    homepageURL:
+      en: 'http://www.google.com/homepage'
+      fr: 'http://www.google.ca/homepage'
+    languages:
+      - PHP
+      - JavaScript
+      - TypeScript
+      - Test
+    partners:
+      - email: contact@partner.com
+        name:
+          en: partner
+          fr: partenaire
+    relatedCode:
+      - URL:
+          en: 'http://www.google.com/related'
+          fr: 'http://www.google.ca/relié'
+        name:
+          en: related
+          fr: relié
+    status: Maintained
+    team:
+      en: teamEN
+      fr: teamFR
