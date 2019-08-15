@@ -1,0 +1,31 @@
+---
+schemaVersion: '1.0'
+description:
+  whatItDoes:
+    en: What it does EN
+    fr: What it does FR
+category: '43232400'
+homepageURL:
+  en: 'http://www.google.com'
+  fr: 'http://www.google.ca'
+licences:
+  - URL:
+      en: 'http://www.google.com'
+      fr: 'http://www.google.ca'
+    spdxID: NCSA
+name:
+  en: Frederic
+  fr: Frédéric
+tags:
+  en:
+    - TagEN
+  fr:
+    - TagFR
+administrations:
+  - adminCode: aafc-aac
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+        date:
+          started: '2019-08-23'
+          metadataLastUpdated: '2019-08-15'
