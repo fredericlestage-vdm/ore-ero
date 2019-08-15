@@ -33,3 +33,10 @@ administrations:
         date:
           started: '2019-01-31'
           metadataLastUpdated: '2019-05-06'
+  - adminCode: fred-qc
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+        date:
+          started: '2019-07-31'
+          metadataLastUpdated: '2019-08-15'
