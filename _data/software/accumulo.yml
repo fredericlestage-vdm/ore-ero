@@ -33,3 +33,10 @@ administrations:
         date:
           started: '2019-01-31'
           metadataLastUpdated: '2019-05-06'
+  - adminCode: asc-csa
+    uses:
+      - contact:
+          email: frederic.lestage@montreal.ca
+        date:
+          started: '2019-08-01'
+          metadataLastUpdated: '2019-08-21'
