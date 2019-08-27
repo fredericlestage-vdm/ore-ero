@@ -1,0 +1,22 @@
+---
+schemaVersion: '1.0'
+adminCode: city-of-montreal-qc
+projects:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    category: '43232200'
+    date:
+      closed: '2019-08-16'
+      started: '2019-08-02'
+      metadaLastUpdated: '2019-08-27'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    name:
+      en: Frederic
+      fr: Frédéric
+    partners:
+      - adminCode: lac-bac
+        email: frederic.lestage@montreal.ca
+        name: Frédéric Lestage
