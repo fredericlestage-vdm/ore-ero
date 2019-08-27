@@ -14,3 +14,13 @@
     en: City of Edmonton
     fr: Ville d'Edmonton
   provinceCode: ab
+- code: fred2-mb
+  name:
+    en: fred2
+    fr: fred2
+  provinceCode: mb
+- code: fred3-mb
+  name:
+    en: fred3
+    fr: fred3
+  provinceCode: mb
