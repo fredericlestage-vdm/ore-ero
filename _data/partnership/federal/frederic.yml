@@ -1,0 +1,27 @@
+---
+schemaVersion: '1.0'
+adminCode: asc-csa
+projects:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    category: '43232500'
+    date:
+      closed: '2019-08-24'
+      started: '2019-08-02'
+      metadaLastUpdated: '2019-08-27'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    name:
+      en: Frederic
+      fr: Frédéric
+    partners:
+      - adminCode: fred1-nb
+        email: frederic.lestage@montreal.ca
+        name: Frédéric Lestage
+      - adminCode: cse-cst
+      - adminCode: csps-efpc
+        email: frederic.lestage@montreal.ca
+        name: Frédéric Lestage
+      - adminCode: fred2-pe
