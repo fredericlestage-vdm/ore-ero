@@ -3,3 +3,12 @@
   name:
     en: Test (please remove)
     fr: Test (please remove)
+- code: fred1
+  name:
+    en: fred1
+    fr: fred1
+- code: fred5-nu
+  name:
+    en: fred5
+    fr: fed5
+  provinceCode: nu
