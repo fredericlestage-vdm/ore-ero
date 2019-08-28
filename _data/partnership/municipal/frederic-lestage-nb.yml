@@ -1,0 +1,18 @@
+---
+schemaVersion: '1.0'
+adminCode: frederic-lestage-nb
+projects:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    category: '43232800'
+    date:
+      closed: '2019-08-24'
+      started: '2019-08-02'
+      metadaLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    name:
+      en: Frederic
+      fr: Frédéric
