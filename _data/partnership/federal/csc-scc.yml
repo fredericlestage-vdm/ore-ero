@@ -1,0 +1,21 @@
+---
+schemaVersion: '1.0'
+adminCode: csc-scc
+projects:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    category: '43232400'
+    date:
+      closed: '2019-08-16'
+      started: '2019-08-02'
+      metadaLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    name:
+      en: Frederic
+      fr: Frédéric
+    partners:
+      - !<tag:yaml.org,2002:js/undefined> ''
+      - adminCode: fred2-on
