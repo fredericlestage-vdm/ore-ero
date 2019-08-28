@@ -1,0 +1,52 @@
+---
+schemaVersion: '1.0'
+adminCode: asc-csa
+projects:
+  - contact:
+      email: test1@hotmail.com
+      name: Le Testeur
+    category: '43232100'
+    date:
+      closed: '2050-05-05'
+      started: '2019-08-28'
+      metadataLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: You can do things.
+        fr: Tu peux faire des choses.
+    name:
+      en: The project
+      fr: Le projet
+    partners:
+      - adminCode: city-of-montreal-qc
+        email: lavilledemontreal@hotmail.com
+    tags:
+      en:
+        - Youtube
+        - Hi
+      fr:
+        - Tutube
+        - Bonjour
+  - contact:
+      email: tufaisquoi@hotmail.com
+      name: Tu Faisquoi
+    category: '43232100'
+    date:
+      closed: '2040-04-04'
+      started: '2019-08-28'
+      metadataLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: Why do you want to know the project features?
+        fr: Pourquoi veux-tu connaître les fonctionnalités?
+    name:
+      en: Nothing
+      fr: Rien
+    partners:
+      - adminCode: city-of-montreal-qc
+        email: lavilledemontreal@hotmail.com
+    tags:
+      en:
+        - Good
+      fr:
+        - Bien

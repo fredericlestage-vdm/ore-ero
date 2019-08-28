@@ -1,0 +1,35 @@
+---
+schemaVersion: '1.0'
+adminCode: tbs-sct
+projects:
+  - contact:
+      email: hello@hotmail.com
+      name: Merouane Guerouabi
+      phone: '514-123-4567'
+    category: '43232100'
+    date:
+      closed: '2020-02-01'
+      started: '2019-08-28'
+      metadataLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: It does something.
+        fr: Ça fait quelque chose.
+      howItWorks:
+        en: Why do you want to know?
+        fr: Pourquoi veux-tu savoir?
+    name:
+      en: The thing
+      fr: La chose
+    partners:
+      - adminCode: bc
+        email: batlescroquettes@hotmail.com
+        name: Je Suis
+    tags:
+      en:
+        - You
+      fr:
+        - Toi
+    team:
+      en: Warriors
+      en: Guerriers

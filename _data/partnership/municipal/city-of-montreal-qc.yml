@@ -1,0 +1,27 @@
+---
+schemaVersion: '1.0'
+adminCode: city-of-montreal-qc
+projects:
+  - contact:
+      email: bonsoir@hotmail.com
+      name: Martin Lavilldemontreallegros
+      phone: '514-131-1313'
+    category: '43232100'
+    date:
+      closed: '2020-02-01'
+      started: '2019-08-28'
+      metadataLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: The project will allow some things.
+        fr: Le projet va permettre certaines choses.
+    name:
+      en: What
+      fr: Quoi
+    partners:
+      - adminCode: bc
+        email: batlescroquettes@hotmail.com
+        name: Some One
+    team:
+      en: The team
+      en: L'équipe

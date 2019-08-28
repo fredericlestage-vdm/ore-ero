@@ -1,0 +1,24 @@
+---
+schemaVersion: '1.0'
+adminCode: bc
+projects:
+  - contact:
+      email: batlescroquettes@hotmail.com
+      name: Je Suis
+    category: '43232100'
+    date:
+      closed: '2020-02-01'
+      started: '2019-08-28'
+      metadataLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: Hi my name is Mohamed.
+        fr: Bonjour mon nom est Mohamed.
+    name:
+      en: The bird
+      fr: L'oiseau
+    tags:
+      en:
+        - One
+      fr:
+        - Un
