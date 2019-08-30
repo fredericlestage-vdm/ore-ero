@@ -1,0 +1,32 @@
+---
+schemaVersion: '1.0'
+adminCode: fred-ab
+releases:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    date:
+      created: '2019-08-03'
+      metadataLastUpdated: '2019-08-30'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    category: '43232900'
+    name:
+      en: Frederic
+      fr: Frédéric
+    licences:
+      - URL:
+          en: 'http://www.google.com'
+          fr: 'http://www.google.ca'
+        spdxID: AFL-2.1
+    repositoryURL:
+      en: 'http://www.google.com/repository'
+      fr: 'http://www.google.ca/repertoire'
+    tags:
+      en:
+        - TagEN
+      fr:
+        - TagFR
+    partners:
+      - adminCode: partner
