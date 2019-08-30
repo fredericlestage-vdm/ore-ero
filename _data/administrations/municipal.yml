@@ -14,3 +14,8 @@
     en: City of Edmonton
     fr: Ville d'Edmonton
   provinceCode: ab
+- code: partner-mb
+  name:
+    en: partner
+    fr: partenaire
+  provinceCode: mb
