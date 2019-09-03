@@ -1,0 +1,22 @@
+---
+schemaVersion: '1.0'
+adminCode: frederic-lestage-qc
+projects:
+  - contact:
+      email: frederic.lestage@montreal.ca
+    category: '43233000'
+    date:
+      closed: '2019-08-31'
+      started: '2019-08-01'
+      metadaLastUpdated: '2019-08-28'
+    description:
+      whatItDoes:
+        en: What it does EN
+        fr: What it does FR
+    name:
+      en: Frederic
+      fr: Frédéric
+    partners:
+      - adminCode: fred1-nu
+      - adminCode: esdc-edsc
+      - adminCode: fred2-nt
